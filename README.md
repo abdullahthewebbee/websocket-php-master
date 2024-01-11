@@ -1,8 +1,5 @@
 # Websocket Client and Server for PHP
 
-[![Build Status](https://github.com/Textalk/websocket-php/actions/workflows/acceptance.yml/badge.svg)](https://github.com/Textalk/websocket-php/actions)
-[![Coverage Status](https://coveralls.io/repos/github/Textalk/websocket-php/badge.svg?branch=master)](https://coveralls.io/github/Textalk/websocket-php)
-
 ## Archived project
 
 This project has been archived and is no longer maintained. No bug fix and no additional features will be added.<br>
@@ -64,13 +61,3 @@ $message = $server->receive();
 $server->text($message);
 $server->close();
 ```
-
-### License and Contributors
-
-[ISC License](COPYING.md)
-
-Fredrik Liljegren, Armen Baghumian Sankbarani, Ruslan Bekenev,
-Joshua Thijssen, Simon Lipp, Quentin Bellus, Patrick McCarren, swmcdonnell,
-Ignas Bernotas, Mark Herhold, Andreas Palm, Sören Jensen, pmaasz, Alexey Stavrov,
-Michael Slezak, Pierre Seznec, rmeisler, Nickolay V. Shmyrev, Christoph Kempen,
-Marc Roberts, Antonio Mora, Simon Podlipsky, etrinh.
